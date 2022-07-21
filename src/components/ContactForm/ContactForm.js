@@ -74,5 +74,5 @@ export default function ContactsForm({ contacts }) {
 }
 
 ContactsForm.propTypes = {
-  contacts: propTypes.array,
+  contacts: propTypes.arrayOf(propTypes.objectOf(propTypes.string)),
 };

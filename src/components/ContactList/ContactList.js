@@ -30,5 +30,5 @@ export default function ContactsList({ contacts }) {
 }
 
 ContactsList.propTypes = {
-  contacts: propTypes.array,
+  contacts: propTypes.arrayOf(propTypes.objectOf(propTypes.string)),
 };
