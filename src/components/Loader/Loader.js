@@ -8,9 +8,9 @@ export default function Loader() {
         ariaLabel="loading"
         height={50}
         width={50}
-        strokeWidth={5}
-        color="green"
-        secondaryColor="blue"
+        strokeWidth={3}
+        color="pink"
+        secondaryColor="red"
       />
     </div>
   );

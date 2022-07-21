@@ -6,6 +6,6 @@ const Container = ({ children }) => (
 );
 
 Container.propTypes = {
-  children: propTypes.element,
+  children: propTypes.node,
 };
 export default Container;
